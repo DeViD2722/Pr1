@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;  
+
+}
+.container {
+    margin: 5% 10%;
+    border : 5px solid black;
+    border-radius: 10px;
+    padding : 7px;
+}
+
+.title {
+    font-size: 50px;
+    text-align: center;
+
+
+}
+
+.details{
+    font-size: 20px;
+    letter-spacing: 0.1em;
+    font-size: 25px;
+    color: green;
+}
+
+.main{
+    font-size: 18px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px 25%;
+}
+
+.button{
+    text-align: center;
+    font-size: 20px;
+    border:2px solid black;
+    border-radius: 7px;
+}
+
+.main p{
+    text-align: center;
+}
+.main p:nth-child(1) {
+    font-weight: bold;
+}
+
+.result p{
+    font-size: 20px;
+}
+
+.error {
+    color: red;
+    margin: 30px 0 0 30vh;
+}
+
+/* hide buttom */
+@media print {
+    .button {
+        display: none;
+    }
+}
+
+h1{
+    text-align: center;
+    color:green;
+    font-size: 30px;
+}
+
+hr{
+    border:3px solid black;
+}
+
+.s1,.s2{
+    color:blue; 
+    font-size:20px;
+}
